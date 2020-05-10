@@ -1,0 +1,18 @@
+/* reglas.- conjuntp de selectores, declaraciones, propiedades y valores
+selectores.- son identificadores de uno o más elementos, hay selectores de etiqueta, descendente, de id(#) o clase(.)
+declaraciones.- Son las llaves y todo lo que entra en ellas
+propiedades.- son los atributos dentro de las declaraciones y acaba con el punto y coma
+valores.- valore que se asigna a las propiedades*/
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+header{
+    background: pink;
+}
+
