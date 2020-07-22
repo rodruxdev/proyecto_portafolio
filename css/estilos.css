@@ -272,9 +272,23 @@ ol, ul{
 .footer a{
     color: white;
 }
+ 
+/*desktop first empieza desde el MQ más grande*/
+
+@media screen and (max-width: 1024px){
+
+}
 
 @media screen and (max-width: 768px){
     body{
         border: 10px solid green;
     }
+}
+
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (max-width: 320px){
+
 }
