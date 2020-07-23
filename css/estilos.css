@@ -355,9 +355,13 @@ ol, ul{
  
 /*desktop first empieza desde el MQ más grande*/
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
     .container {
         padding: 0 1em;
+    }
+
+    .event-list-tittle {
+        margin-left: 0;
     }
 
     .hero {
@@ -387,10 +391,17 @@ ol, ul{
 
 @media screen and (max-width: 767px){
 
+    h2 {
+        font-size: 1.1em;
+        margin: .8em 0;
+    } 
     .burger-button{
         display: block;
     }
 
+    .portfolio {
+        padding: 0;
+    }
     .header {
         display: block;
         height: auto;
@@ -460,7 +471,7 @@ ol, ul{
     }
 
     .project-url {
-        font-size: .5em;
+        font-size: .8em;
     }
 
     .project-course {
@@ -472,7 +483,7 @@ ol, ul{
     }
 
     .project-description {
-        font-size: .8em;
+        font-size: 1em;
     }
 
     .event {
@@ -492,7 +503,7 @@ ol, ul{
 
     .project-details {
         width: auto;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .event-detail {
@@ -519,6 +530,12 @@ ol, ul{
         display: block;
         text-align: center;
         border: 1px solid transparent;
+    }
+    
+    .social-link {
+        width: 40px;
+        height: 40px;
+        background-size: 100%;
     }
 
 }
